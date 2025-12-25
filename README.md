@@ -1,12 +1,12 @@
-# 🩺 Diabetes Prediction & Health Advice System
+#  Diabetes Prediction & Health Advice System
 
-## 📌 Project Description
+##  Project Description
 This project is a Health Prediction AI Website that predicts whether a person is Diabetic or Non-Diabetic based on health details.  
 It also provides basic health advice using Machine Learning.
 
 ---
 
-## 🎯 Features
+##  Features
 - Interactive and user-friendly website  
 - Takes health inputs like glucose, BMI, age, etc.  
 - Predicts diabetes using AI  
@@ -14,7 +14,7 @@ It also provides basic health advice using Machine Learning.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python  
 - Pandas  
 - Scikit-Learn  
@@ -23,7 +23,7 @@ It also provides basic health advice using Machine Learning.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 diabetes_web_app/
 │── app.py  
 │── diabetes_model.pkl  
@@ -31,7 +31,7 @@ diabetes_web_app/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - Dataset: Diabetes Dataset  
 - Source: Kaggle  
 - Target Column: Outcome  
@@ -40,7 +40,7 @@ diabetes_web_app/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### Step 1: Install Required Libraries
 pip install streamlit pandas scikit-learn joblib
@@ -59,7 +59,7 @@ http://localhost:8501
 
 ---
 
-## 🧪 Working of the Project
+##  Working of the Project
 1. User enters health details  
 2. Machine Learning model processes the input  
 3. Diabetes prediction is generated  
@@ -67,7 +67,7 @@ http://localhost:8501
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 - Add BMI calculator  
 - Improve UI design  
 - Add more diseases  
@@ -75,6 +75,3 @@ http://localhost:8501
 
 ---
 
-## 👩‍💻 Author
-Name: Vani  
-Project Type: Machine Learning + Web Application
