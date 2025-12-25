@@ -1,62 +1,80 @@
-# Diabetes Risk Prediction App
+# 🩺 Diabetes Prediction & Health Advice System
 
-This project is a simple machine learning web app that predicts whether a person has **High Risk** or **Low Risk** of diabetes based on health details.
+## 📌 Project Description
+This project is a Health Prediction AI Website that predicts whether a person is Diabetic or Non-Diabetic based on health details.  
+It also provides basic health advice using Machine Learning.
 
-The app is built using **Python, Machine Learning, and Gradio** and runs in **Google Colab**.
+---
 
-## Features
+## 🎯 Features
+- Interactive and user-friendly website  
+- Takes health inputs like glucose, BMI, age, etc.  
+- Predicts diabetes using AI  
+- Provides simple health advice  
 
-- Predicts diabetes risk
-- Easy to use web interface
-- Light and attractive design
-- Instant result after clicking Predict
+---
 
-## Input Details Used
-
-- Pregnancies  
-- Glucose  
-- Blood Pressure  
-- BMI  
-- Age  
-
-## Technologies Used
-
+## 🛠️ Technologies Used
 - Python  
 - Pandas  
-- NumPy  
-- Scikit-learn  
-- Gradio  
+- Scikit-Learn  
+- Streamlit  
+- Random Forest Algorithm  
 
-## Files in This Project
+---
 
-HealthPredictionApp/
-├── Health_Prediction_App.ipynb
-├── health_model.pkl
-├── diabetes.csv
-├── requirements.txt
-└── README.md
+## 📂 Project Structure
+diabetes_web_app/
+│── app.py  
+│── diabetes_model.pkl  
+│── README.md  
 
-## How to Run in Google Colab
+---
 
-1. Open Google Colab
-2. Upload the notebook file
-3. Upload the dataset and model file
-4. Run all cells
-5. Enter values and click Predict
+## 📊 Dataset
+- Dataset: Diabetes Dataset  
+- Source: Kaggle  
+- Target Column: Outcome  
+  - 0 → Non-Diabetic  
+  - 1 → Diabetic  
 
-## Sample Input
+---
 
-Pregnancies: 2  
-Glucose: 120  
-Blood Pressure: 70  
-BMI: 28  
-Age: 30  
+## ▶️ How to Run the Project
 
-Output: Low Risk
+### Step 1: Install Required Libraries
+pip install streamlit pandas scikit-learn joblib
 
-## Result
+---
 
-The app shows:
-- **Low Risk** or **High Risk**
+### Step 2: Run the Application
+cd diabetes_web_app  
+python -m streamlit run app.py
 
+---
 
+### Step 3: Open Website
+Open browser and go to:  
+http://localhost:8501
+
+---
+
+## 🧪 Working of the Project
+1. User enters health details  
+2. Machine Learning model processes the input  
+3. Diabetes prediction is generated  
+4. Health advice is displayed  
+
+---
+
+## 🚀 Future Enhancements
+- Add BMI calculator  
+- Improve UI design  
+- Add more diseases  
+- Deploy the application online  
+
+---
+
+## 👩‍💻 Author
+Name: Vani  
+Project Type: Machine Learning + Web Application
